@@ -32,13 +32,16 @@ class DocsController < ApplicationController
     else
       render 'edit'
 end
-
-def destory
+end
+def destroy
   @doc.destroy
   redirect_to docs_path
-end
+
 
 end
+
+
+
 
 private
     def find_doc

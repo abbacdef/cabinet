@@ -43,8 +43,8 @@ body {
 button, .button {
 	border: none;
 	outline: none;
-	background: $green;
-	padding: 1rem 3.5rem;
+	background: brown;
+	padding: 1rem 1.5rem;
 	border-radius: 0.1rem;
 	a {
 		color: white;
@@ -53,12 +53,43 @@ button, .button {
 	}
 }
 
-.button {
-	color: white;
+.button2 {
+  background: #529ECB;
 
-	margin: 2rem 0;
+  text-emphasis-color: black;
+  color:#800000;
+  background-color: #700000;
+  font-size: 30px;
+  border: none;
+  text-align-last: right;
+  text-shadow: 1px 1px #fff000;
+  font-size: 1.6rem;
+  font-style: bold;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: 900;
+  text-decoration-color: blue;
+  outline: text-transform;
+  background: $green;
+  padding: 2rem 3.5rem;
+  border-radius: 0.9rem;
+
+	margin: 3rem 0;
 }
+.butto3 {
+    background-color: #bluie;
+    border-radius: 10px;
+    border: 3px solid #673628;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+    color: #9A2D0C;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 3px;
+  }
 a {
 	color: $green;
 	text-decoration: none;
@@ -145,5 +176,11 @@ textarea {
 .heado {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 20px 10px;
+  box-shadow: 0 9px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 30px 20px;
+  border-radius: 25px;
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-stretch: condensed;
+
 }

@@ -11,18 +11,18 @@
     .heado
 
 
-     = link_to "FileCabinet", root_path, id: "box9"
+     = link_to "FileBox", root_path, id: "box9"
 
 
   %nav
-   .button
+   .button2
     - if user_signed_in?
-     = link_to "Create Doc", new_doc_path
-     = link_to "Sign out", destroy_user_session_path, method: :delete
+     = link_to "Create Doc", new_doc_path, class: "butto3"
+     = link_to "Sign out", destroy_user_session_path, method: :delete, class: "butto3"
 
 
     - else
-     =link_to "Log In", new_user_session_path
+     =link_to "Log In", new_user_session_path, class: "butto3"
 
  %p.notice= notice
  %p.alert= alert
