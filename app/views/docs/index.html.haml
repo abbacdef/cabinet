@@ -7,7 +7,7 @@
      .doc
       %p.title= link_to doc.title, doc
       %p.date= time_ago_in_words(doc.created_at)
-      %p.content= truncate(doc.content, lenght:30)
+      %p.icontent= truncate(doc.content, lenght:60)
 
   - else
    %h2 Create Doc!
