@@ -18,7 +18,7 @@
    .button2
     - if user_signed_in?
      = link_to "Create Doc", new_doc_path, class: "butto3"
-     = link_to "Sign out", destroy_user_session_path, method: :delete, class: "butto3"
+     = link_to "Sign out", destroy_user_session_path, class: "butto3"
 
 
     - else
